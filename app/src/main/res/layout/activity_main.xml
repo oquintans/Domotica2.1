@@ -1,0 +1,130 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parrilla"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:text="@string/Linear1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="1"
+        android:onClick="flash"
+        android:text="@string/Light" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="@string/Linear2"
+        android:textStyle="italic" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_row="3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:onClick="sendMessage"
+        android:text="@string/send" />
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:hint="@string/edit_message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonNav"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:onClick="navega"
+        android:text="@string/btnNav" />
+
+    <EditText
+        android:id="@+id/navField"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:hint="@string/navField"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:onClick="localiza"
+        android:text="@string/btnMap" />
+
+    <EditText
+        android:id="@+id/mapField"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="6"
+        android:hint="@string/mapField" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="7"
+        android:onClick="llama"
+        android:text="@string/btnCall" />
+
+    <EditText
+        android:id="@+id/callField"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="7"
+        android:hint="@string/callField" />
+
+    <Button
+        android:id="@+id/buttonFR"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="8"
+        android:onClick="forResult"
+        android:text="@string/btnFR" />
+
+    <TextView
+        android:id="@+id/frField"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="8" />
+
+</GridLayout>

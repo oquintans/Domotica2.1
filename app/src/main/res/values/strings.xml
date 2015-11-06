@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Domotica2.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Light">Linterna</string>
+    <string name="Linear1">DOMOTICA 2.0</string>
+    <string name="Linear2">ProgressBar </string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="edit_message">Introduce mensaje</string>
+    <string name="progress_text">0</string>
+    <string name="send">Send</string>
+    <string name="btnNav">Navegador</string>
+    <string name="btnMap">Maps</string>
+    <string name="mapField">Introduce localización</string>
+    <string name="navField">Introduce busqueda</string>
+    <string name="btnCall">Call</string>
+    <string name="callField">Introduce un número</string>
+    <string name="btnFR">ForResult</string>
+    <string name="frField">New Text</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="btnDev">Listo!</string>
+</resources>
